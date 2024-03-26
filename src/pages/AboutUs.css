@@ -1,0 +1,9 @@
+.small-font {
+    font-size: 15px; 
+  }
+
+img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 40px;
+  }
