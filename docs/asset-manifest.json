@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7ea5297b.css",
+    "main.js": "/static/js/main.f4888cac.js",
+    "static/media/workflow.png": "/static/media/workflow.f00e519a1f234845de23.png",
+    "static/media/main-project.png": "/static/media/main-project.aa4327bad6c1e37e3904.png",
+    "static/media/llm_studying.png": "/static/media/llm_studying.47c8db999dd198c8d375.png",
+    "static/media/Entailment.png": "/static/media/Entailment.6f9780d8ba3f6537ddf8.png",
+    "static/media/data_comparison.png": "/static/media/data_comparison.3353f48e87cfced0ffdc.png",
+    "static/media/ntu.png": "/static/media/ntu.f3d2e50e966ae4faf622.png",
+    "static/media/verdict.png": "/static/media/verdict.1d87f5b0a31bb0521dd4.png",
+    "static/media/data_curation.png": "/static/media/data_curation.3d234c56da63a6a53e24.png",
+    "static/media/nvidia.png": "/static/media/nvidia.f1673a7f4b59bcb2efaa.png",
+    "static/media/llm_logo.png": "/static/media/llm_logo.4f091524ff780a50ca33.png",
+    "index.html": "/index.html",
+    "main.7ea5297b.css.map": "/static/css/main.7ea5297b.css.map",
+    "main.f4888cac.js.map": "/static/js/main.f4888cac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ea5297b.css",
+    "static/js/main.f4888cac.js"
+  ]
+}
