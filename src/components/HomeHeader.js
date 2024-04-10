@@ -35,7 +35,7 @@ const HomeHeader = () => {
                 <div className='header-title typewriter'>
                     <img src={llmLogo}  className='logo'/>
                     <div className='first-word'>LLM</div>
-                    <div className='second-word'>Square</div>
+                    <div className='second-word'>Squared</div>
                 </div>
 
             </div>

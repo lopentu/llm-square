@@ -14,7 +14,7 @@ const Header = ({go=[]}) =>{
                         <div className='header-title2'>
                         <img src={llmLogo} className='logo'/>
                         <div className='first-word'>LLM</div>
-                        <div className='second-word'>Square</div>                         </div>
+                        <div className='second-word'>Squared</div>                         </div>
                     </Link>
                 <div  className="page-anchor">
                     {go && go.map((item)=>(
