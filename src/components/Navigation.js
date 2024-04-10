@@ -60,21 +60,21 @@ const Navigation=()=>{
 
                   <div className='menu-open-links'>
                     <Link to='/sub-project/first' title='子計畫' className='navigation__link'>
-                      <h2>Sub-project</h2>
-                      <h3>子計畫</h3>
+                      <h2>Research Groups</h2>
+                      <h3>研究小組</h3>
                     </Link>
                     <div className='menu-item-links navigation__link'>
-                      <Link to='/sub-project/first' title='子一「微調與評測」' className='menu-open-link'>
-                      子一「微調與評測」
+                      <Link to='/sub-project/first' title='「微調與評測」' className='menu-open-link'>
+                      「微調與評測」
                       </Link>
-                      <Link to='/sub-project/second' title='子二「引用與推薦」' className='menu-open-link'>
-                      子二「引用與推薦」
+                      <Link to='/sub-project/second' title='「引用與推薦」' className='menu-open-link'>
+                      「引用與推薦」
                       </Link>
-                      <Link to='/sub-project/third' title='子三「微調應用」' className='menu-open-link'>
-                      子三「驗證與測試」
+                      <Link to='/sub-project/third' title='「微調應用」' className='menu-open-link'>
+                      「驗證與測試」
                       </Link>
-                      <Link to='/sub-project/forth' title='子四「圖譜與視覺話」' className='menu-open-link'>
-                      子四「微調應用」
+                      <Link to='/sub-project/forth' title='「圖譜與視覺話」' className='menu-open-link'>
+                      「微調應用」
                       </Link>
                     </div>
                   </div>

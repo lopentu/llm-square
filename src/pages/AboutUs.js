@@ -80,7 +80,7 @@ const AboutUs = () =>{
                                     leaderName='國立台灣大學語言學研究所 謝舒凱教授' 
                                     coleader={<span>計畫參與<br/>學生</span>} 
                                     coleaderName = {
-                                                        <span>國立台灣大學語言學研究所 <br/>國立台灣大學語言學研究所 </span>
+                                                        <span>國立台灣大學語言學研究所 連大成<br/>國立台灣大學語言學研究所 陳品而<br/>國立台灣大學語言學研究所 王柏雅<br/>國立台灣大學語言學研究所 古貿昌<br/>國立台灣大學語言學研究所 顏巧函<br/>國立台灣大學語言學研究所 紀柔安</span>
                                                     }
                                 />
 
@@ -163,10 +163,16 @@ const AboutUs = () =>{
                                     <h2>Sponsors</h2>
                                     <h3>贊助</h3>
                                 </div>
-
+                            <div className="sponsors">
+                                <h2>Nvidia台大人工智慧聯合研究中心</h2>
+                                <div className="space"></div>
+                                <img src={ntu} loading="lazy" style={{ width: '200px', height: '200px' }} alt=" " className="featured-image"/>
+                                {/*<h4>國立台灣大學</h4>*/}
+                                {/*<img src={nvidia} loading="lazy" style={{ width: '400px', height: '200px' }} alt=" " className="featured-image"/>*/}                                
                             </div>
-                            <img src={ntu} loading="lazy" style={{ width: '200px', height: '200px' }} alt=" " className="featured-image"/>
-                            <img src={nvidia} loading="lazy" style={{ width: '400px', height: '200px' }} alt=" " className="featured-image"/>
+                            </div>
+
+
                     </div>                                                    
                 </section>
 
@@ -183,7 +189,7 @@ const AboutUs = () =>{
                             </div>
                         </div>
                         <div className='contact-info whitecolor'>
-                            <ContactInfoContent contactOffice='LOPE＠台大語言所' phone='02-33664104 ext 307' email='shukaihsieh@ntu.edu.tw' contact='謝舒凱 副教授'/>
+                            <ContactInfoContent contactOffice='LOPE＠台大語言所' phone='02-33664104 ext 307' email='shukaihsieh@ntu.edu.tw' contact='謝舒凱 教授'/>
                             <ContactInfoContent contactOffice='LLNTU＠台大法學院' phone='02-33668964' email='schhuang@ntu.edu.tw' contact='黃詩淳 教授'/>
                             <ContactInfoContent contactOffice={<span>Com.Comm. Lab<br/>＠台大新聞所</span>} phone='02-33669867' email='jirlong@gmail.com' contact='謝吉隆 副教授'/>
                         </div>

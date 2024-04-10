@@ -598,7 +598,7 @@ p{
     display: flex;
 }
 
-.project-items {
+.project-items-old {
     grid-column-gap: 16px;
     grid-row-gap: 16px;
     flex-wrap: wrap;
@@ -608,6 +608,15 @@ p{
     justify-content: flex-end;
     display: grid;
 }
+
+.project-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* 自適應列寬度，最小寬度為300px */
+    grid-gap: 16px; /* 設置列和行之間的間距 */
+    justify-content: center; /* 水平居中對齊 */
+}
+
+
 
 .project-leader {
     width: 100%;

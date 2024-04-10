@@ -2,8 +2,24 @@
     font-size: 15px; 
   }
 
-img {
+.img {
     max-width: 50%;
     height: auto;
     border-radius: 40px;
   }
+
+.sponsors {
+  display: flex;
+  align-items: center;
+}
+.sponsors h2{
+  font-weight: bold; 
+  color: #76b900; 
+}
+
+.space {
+  margin: 0 50px; 
+}
+
+
+

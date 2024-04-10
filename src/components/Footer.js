@@ -71,20 +71,20 @@ const Footer = () =>{
                 </div>
 
                 <div className='footer-block'>
-                    <Link to='/sub-project/first' title='子計畫' className='footer-link-title w-inline-block'>
-                        <div className='title-small'>子計劃</div>
+                    <Link to='/sub-project/first' title='研究小組' className='footer-link-title w-inline-block'>
+                        <div className='title-small'>研究小組</div>
                     </Link>
-                    <Link to='/sub-project/first' title='子一「微調與評測」' className='footer-link'>
-                        子一「微調與評測」
+                    <Link to='/sub-project/first' title='「微調與評測」' className='footer-link'>
+                        「微調與評測」
                     </Link>
-                    <Link to='/sub-project/second' title='子二「引用與推薦」' className='footer-link'>
-                        子二「引用與推薦」
+                    <Link to='/sub-project/second' title='「引用與推薦」' className='footer-link'>
+                        「引用與推薦」
                     </Link>
-                    <Link to='/sub-project/third' title='子三「微調應用」' className='footer-link'>
-                        子三「驗證與測試」
+                    <Link to='/sub-project/third' title='「微調應用」' className='footer-link'>
+                        「驗證與測試」
                     </Link>
-                    <Link to='/sub-project/forth' title='子四「圖譜與視覺話」' className='footer-link'>
-                        子四「微調應用」
+                    <Link to='/sub-project/forth' title='「圖譜與視覺話」' className='footer-link'>
+                        「微調應用」
                     </Link>
                 </div>
 

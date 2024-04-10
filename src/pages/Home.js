@@ -7,7 +7,10 @@ import Plan from '../components/Plan';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import HomeHeader from '../components/HomeHeader';
+import BlogCard from '../components/BlogCard';
 
+import typingCat from './typing_cat.png';
+import shukai from '../shukai.png'
 
 
 const Home = () => {
@@ -39,15 +42,17 @@ const Home = () => {
                                     <br />
                                     Square
                                 </h2>
-                                <h3>文章廣場（待開發...）</h3>
+                                <h3>文章廣場</h3>
                             </div>
                             <a href="/posts" title="查看全部" className="button w-button">更多文章</a>
                         </div>
                         <div className='home-project-item-list w-dyn-list'>
-                            <div role="list" className="project-items w-dyn-items">
-                                <Plan imgSrc='' text='post_1' />
-                                <Plan imgSrc='' text='post_2' />
-                                <Plan imgSrc='' text='post_3' />
+                            <div role='list' className="project-items "> {/*w-dyn-items*/}
+                                <BlogCard title='法律領域的大型語言模型' author='謝舒凱' coverPhoto={typingCat} avatar={shukai} datePublish='2024-04-08'/>
+                                {/*<BlogCard title='法律領域的大型語言模型' author='謝舒凱' coverPhoto='typingCat' datePublish='2024-04-08'/>*/}
+                                {/*<Plan imgSrc='' text='post_1' />*/}
+                                {/*<Plan imgSrc='' text='post_2' />*/}
+                                {/*<Plan imgSrc='' text='post_3' />*/}
                             </div>
                         </div>
                     </div>
