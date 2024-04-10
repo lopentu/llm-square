@@ -1,23 +1,34 @@
 {
   "files": {
-    "main.css": "/llm-square/static/css/main.7ea5297b.css",
-    "main.js": "/llm-square/static/js/main.57560a17.js",
-    "static/media/workflow.png": "/llm-square/static/media/workflow.f00e519a1f234845de23.png",
-    "static/media/main-project.png": "/llm-square/static/media/main-project.aa4327bad6c1e37e3904.png",
-    "static/media/llm_studying.png": "/llm-square/static/media/llm_studying.47c8db999dd198c8d375.png",
-    "static/media/Entailment.png": "/llm-square/static/media/Entailment.6f9780d8ba3f6537ddf8.png",
-    "static/media/data_comparison.png": "/llm-square/static/media/data_comparison.3353f48e87cfced0ffdc.png",
-    "static/media/ntu.png": "/llm-square/static/media/ntu.f3d2e50e966ae4faf622.png",
-    "static/media/verdict.png": "/llm-square/static/media/verdict.1d87f5b0a31bb0521dd4.png",
-    "static/media/data_curation.png": "/llm-square/static/media/data_curation.3d234c56da63a6a53e24.png",
-    "static/media/nvidia.png": "/llm-square/static/media/nvidia.f1673a7f4b59bcb2efaa.png",
-    "static/media/llm_logo.png": "/llm-square/static/media/llm_logo.4f091524ff780a50ca33.png",
+    "main.css": "/llm-square/static/css/main.cf0742fd.chunk.css",
+    "main.js": "/llm-square/static/js/main.3148a712.chunk.js",
+    "main.js.map": "/llm-square/static/js/main.3148a712.chunk.js.map",
+    "runtime-main.js": "/llm-square/static/js/runtime-main.d788c632.js",
+    "runtime-main.js.map": "/llm-square/static/js/runtime-main.d788c632.js.map",
+    "static/js/2.a2a620a9.chunk.js": "/llm-square/static/js/2.a2a620a9.chunk.js",
+    "static/js/2.a2a620a9.chunk.js.map": "/llm-square/static/js/2.a2a620a9.chunk.js.map",
     "index.html": "/llm-square/index.html",
-    "main.7ea5297b.css.map": "/llm-square/static/css/main.7ea5297b.css.map",
-    "main.57560a17.js.map": "/llm-square/static/js/main.57560a17.js.map"
+    "precache-manifest.cedbd05d0777d15618d3ee4cf63ea351.js": "/llm-square/precache-manifest.cedbd05d0777d15618d3ee4cf63ea351.js",
+    "service-worker.js": "/llm-square/service-worker.js",
+    "static/css/main.cf0742fd.chunk.css.map": "/llm-square/static/css/main.cf0742fd.chunk.css.map",
+    "static/js/2.a2a620a9.chunk.js.LICENSE.txt": "/llm-square/static/js/2.a2a620a9.chunk.js.LICENSE.txt",
+    "static/media/Entailment.png": "/llm-square/static/media/Entailment.0aefec32.png",
+    "static/media/data_comparison.png": "/llm-square/static/media/data_comparison.3b27edbf.png",
+    "static/media/data_curation.png": "/llm-square/static/media/data_curation.68314b5c.png",
+    "static/media/llm_logo.png": "/llm-square/static/media/llm_logo.8d757e48.png",
+    "static/media/llm_studying.png": "/llm-square/static/media/llm_studying.2b183548.png",
+    "static/media/main-project.png": "/llm-square/static/media/main-project.54bfe818.png",
+    "static/media/ntu.png": "/llm-square/static/media/ntu.e82dfd9b.png",
+    "static/media/nvidia.png": "/llm-square/static/media/nvidia.559fb432.png",
+    "static/media/shukai.png": "/llm-square/static/media/shukai.cab6a3e7.png",
+    "static/media/typing_cat.png": "/llm-square/static/media/typing_cat.c911b836.png",
+    "static/media/verdict.png": "/llm-square/static/media/verdict.7ab53d3c.png",
+    "static/media/workflow.png": "/llm-square/static/media/workflow.d415b5d9.png"
   },
   "entrypoints": [
-    "static/css/main.7ea5297b.css",
-    "static/js/main.57560a17.js"
+    "static/js/runtime-main.d788c632.js",
+    "static/js/2.a2a620a9.chunk.js",
+    "static/css/main.cf0742fd.chunk.css",
+    "static/js/main.3148a712.chunk.js"
   ]
 }
