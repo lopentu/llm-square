@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fdfb49941730253f57bd5f4759da60e6",
+    "revision": "2516ab4ea2d616e93ce463dcfe26f84a",
     "url": "/llm-square/index.html"
   },
   {
-    "revision": "0b7295675cabcf1ade0a",
-    "url": "/llm-square/static/css/main.cf0742fd.chunk.css"
+    "revision": "f76dc88c4ab9e6eed75c",
+    "url": "/llm-square/static/css/main.cc1a013b.chunk.css"
   },
   {
-    "revision": "3225b595ba086434c230",
-    "url": "/llm-square/static/js/2.a2a620a9.chunk.js"
+    "revision": "21a6cbf2f35bb31a73a6",
+    "url": "/llm-square/static/js/2.0b562fc6.chunk.js"
   },
   {
     "revision": "3478b494b1c1800ea949f65ca5135346",
-    "url": "/llm-square/static/js/2.a2a620a9.chunk.js.LICENSE.txt"
+    "url": "/llm-square/static/js/2.0b562fc6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0b7295675cabcf1ade0a",
-    "url": "/llm-square/static/js/main.3148a712.chunk.js"
+    "revision": "f76dc88c4ab9e6eed75c",
+    "url": "/llm-square/static/js/main.e5fb0ecb.chunk.js"
   },
   {
     "revision": "8b1f7bef2acd57e574c6",
