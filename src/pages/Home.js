@@ -12,6 +12,7 @@ import BlogCard from '../components/BlogCard';
 import typingCat from './typing_cat.png';
 import shukai from '../shukai.png'
 import React from 'react';
+import Cover from '../components/Cover'
 
 
 const Home = () => {
@@ -25,7 +26,9 @@ const Home = () => {
                     </div>
 
                 </section> */}
-
+                <section className="section-1 beigebg">
+                    <Cover/>
+                </section>
                 <section className="section-1 beigebg">
                     <About />
                 </section>
