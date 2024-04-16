@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/llm-square/static/css/main.f2e96d27.chunk.css",
+    "main.css": "/llm-square/static/css/main.d5638744.chunk.css",
     "main.js": "/llm-square/static/js/main.63d9d1cd.chunk.js",
     "main.js.map": "/llm-square/static/js/main.63d9d1cd.chunk.js.map",
     "runtime-main.js": "/llm-square/static/js/runtime-main.d788c632.js",
@@ -8,9 +8,9 @@
     "static/js/2.0b562fc6.chunk.js": "/llm-square/static/js/2.0b562fc6.chunk.js",
     "static/js/2.0b562fc6.chunk.js.map": "/llm-square/static/js/2.0b562fc6.chunk.js.map",
     "index.html": "/llm-square/index.html",
-    "precache-manifest.18963bbaf92a977e105c1fc113c5571f.js": "/llm-square/precache-manifest.18963bbaf92a977e105c1fc113c5571f.js",
+    "precache-manifest.e41111cf2af48a77692ce6a88f2cf010.js": "/llm-square/precache-manifest.e41111cf2af48a77692ce6a88f2cf010.js",
     "service-worker.js": "/llm-square/service-worker.js",
-    "static/css/main.f2e96d27.chunk.css.map": "/llm-square/static/css/main.f2e96d27.chunk.css.map",
+    "static/css/main.d5638744.chunk.css.map": "/llm-square/static/css/main.d5638744.chunk.css.map",
     "static/js/2.0b562fc6.chunk.js.LICENSE.txt": "/llm-square/static/js/2.0b562fc6.chunk.js.LICENSE.txt",
     "static/media/Entailment.png": "/llm-square/static/media/Entailment.0aefec32.png",
     "static/media/data_comparison.png": "/llm-square/static/media/data_comparison.3b27edbf.png",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.d788c632.js",
     "static/js/2.0b562fc6.chunk.js",
-    "static/css/main.f2e96d27.chunk.css",
+    "static/css/main.d5638744.chunk.css",
     "static/js/main.63d9d1cd.chunk.js"
   ]
 }
