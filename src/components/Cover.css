@@ -105,7 +105,7 @@
     display: flex;
     justify-content: center; /* 將內容水平置中 */
     align-items: center; /* 將內容垂直置中 */
-    margin-top: -35rem;
+    margin-top: -30rem;
     margin-bottom: 20rem;
   }
 
