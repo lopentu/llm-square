@@ -8,6 +8,7 @@ import { NavLink } from 'react-router-dom';
 import dataCuration from '../data_curation.png'
 import dataComparison from '../data_comparison.png'
 import verdict from '../verdict.png'
+import React from 'react';
 
 
 const SubProjectThree =()=>{
@@ -22,10 +23,10 @@ const SubProjectThree =()=>{
                         <div className='title-area left'>
                             <h3>
                                 <strong>
-                                 sub-projects
+                                 research teams
                                 </strong>
                             </h3>
-                            <h1>子計畫</h1>
+                            <h1>研究小組</h1>
                         </div>
 
                         <div className='project-tab-list'>
@@ -39,7 +40,7 @@ const SubProjectThree =()=>{
                                 ].join(' ')
                             }
                             >
-                            子一「微調與評測」
+                            「微調與評測」
                         </NavLink>
 
                         <NavLink
@@ -51,7 +52,7 @@ const SubProjectThree =()=>{
                                 ].join(' ')
                             }
                             >
-                            子二「引用與推薦」
+                            「引用與推薦」
                         </NavLink>
 
                         <NavLink
@@ -63,7 +64,7 @@ const SubProjectThree =()=>{
                                 ].join(' ')
                             }
                             >
-                            子三「驗證與測試」
+                            「驗證與測試」
                         </NavLink>
 
                         <NavLink
@@ -75,7 +76,7 @@ const SubProjectThree =()=>{
                                 ].join(' ')
                             }
                             >
-                            子四「微調應用」
+                            「微調應用」
                         </NavLink>
 
                         </div>
@@ -88,8 +89,8 @@ const SubProjectThree =()=>{
                     <div className="horizontal-area mobile-switch">
                         <div className='text-container left'>
                             <div className='title-area left'>
-                                <h2>Sub-project three</h2>
-                                <h3>子計畫三（邵軒磊）：大型語言模型端到端自動解答--以法律領域試題為例</h3>
+                                <h3>team three</h3>
+                                <h2>大型語言模型端到端自動解答--以法律領域試題為例（邵軒磊）</h2>
                             </div>
                             <div>
                                 <p>本研究的預期影響包括提高法律學習效率，實現個人化教學，增加評分的公平性和客觀性，以及推動教育模式創新。預期成果旨在開發能夠端到端自動解答法學考試的LLMs，

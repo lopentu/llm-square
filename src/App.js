@@ -13,8 +13,14 @@ import SubProjectTwo from './pages/SubProjectTwo';
 import SubProjectThree from './pages/SubProjectThree';
 import SubProjectFour from './pages/SubProjectFour';
 import MainProject from './pages/MainProject';
+import React  from 'react';
+import ScrollToTop from './ScrollToTop';
+
 
 const App = () => {
+
+
+
     return(
         <div className='App'>
             <BrowserRouter basename={process.env.PUBLIC_URL}>
@@ -33,6 +39,8 @@ const App = () => {
                     <Route path='/sub-project/third' element={<SubProjectThree/>} />
                     <Route path='/sub-project/forth' element={<SubProjectFour/>} />
                 </Routes>
+                <ScrollToTop />
+
             </BrowserRouter>
         </div>
     )

@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ArticleList from "../components/ArticleList";
 import shukai from '../shukai.png'
+import React from 'react';
 
 
 const Posts = () =>{
@@ -50,8 +51,8 @@ const Posts = () =>{
                             </p>
                             <p>我們在日後會進一步探討這些工程技術的優缺點，以及在法律領域的應用。以下先簡要來說。</p>
                             <p>從頭開始建構 (Training from scratch) 是最具挑戰性的工作，需要大量的領域語料庫、計算資源與時間。</p>
-                            <p>如財經領域的 `BloombergGPT`, 法律領域的 `Kelvin Legal GPT`。</p>
-                            <p>特別值得關注的是 Kevin legal (https://kelvin.legal/) 是一間美國法律新創 273 Ventures 提供的法律智能科技服務。在今年 2 月，Kelvin legal 宣布了 `KL3M`，這是號稱第一個 from scratch 專門為法律（與財經）領域訓練的大型語言模型。所提供的兩個版本 (kl3m-170m and kl3m-1.7b）據稱在 perplexity 和 toxicity 上都超越了一些主流通用 LLM，並且在人類偏好、草案和法規問答等領域上贏得了一些競爭對手。</p>
+                            <p>如財經領域的 <i>BloombergGPT</i>, 法律領域的 <i>Kelvin Legal GPT</i>。</p>
+                            <p>特別值得關注的是 Kevin legal (https://kelvin.legal/) 是一間美國法律新創 273 Ventures 提供的法律智能科技服務。在今年 2 月，Kelvin legal 宣布了 <i>KL3M</i>，這是號稱第一個 from scratch 專門為法律（與財經）領域訓練的大型語言模型。所提供的兩個版本 (kl3m-170m and kl3m-1.7b）據稱在 perplexity 和 toxicity 上都超越了一些主流通用 LLM，並且在人類偏好、草案和法規問答等領域上贏得了一些競爭對手。</p>
                             <p>因為還沒看到正式實驗報告，我們先做個保留。但是儘管從頭訓練有一些可能的優點，如資料安全控管、可避免訓練語料違反著作權等。但可能的應用問題是，如果涉及到一般使用者，不適合以專業提升來犧牲自然語言的一般能力。就是說，我們不會想要法律領域的語言模型，說話像是司法官的語言。此外，不像醫療與其他領域，法律領域有很強的本土性。很難做跨語言的遷移學習。</p>
                             <p>對通用 LLM 進行「微調」（Fine-tuning）和「持續預訓練」（Continual Pre-training）是較兩種常見的技術。</p>
                             <p>微調是指在一個已經預訓練的語言模型的基礎上，進一步在一個或多個特定任務的數據集上訓練模型。這個過程通常涉及整個模型的參數，並且訓練的目標是使模型更好地適應這些特定的任務。微調時，學習率通常設置得比預訓練階段低，以避免過度干擾已學習的特徵。目的比較是使模型更好地適應特定的下游任務。</p>

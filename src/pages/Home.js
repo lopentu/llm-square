@@ -11,6 +11,7 @@ import BlogCard from '../components/BlogCard';
 
 import typingCat from './typing_cat.png';
 import shukai from '../shukai.png'
+import React from 'react';
 
 
 const Home = () => {
@@ -37,12 +38,10 @@ const Home = () => {
                     <div className='vertical-area'>
                         <div className='text-container orizontal'>
                             <div className='title-area left'>
-                                <h2>
-                                    POSTS
-                                    <br />
-                                    Square
-                                </h2>
-                                <h3>文章廣場</h3>
+                                <h3>
+                                    POSTS Square
+                                </h3>
+                                <h2>文章廣場</h2>
                             </div>
                             <a href="/posts" title="查看全部" className="button w-button">更多文章</a>
                         </div>

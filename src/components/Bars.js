@@ -6,7 +6,7 @@ import '../App.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
-
+import React from 'react';
 
 const Bars = () => {
   const values = [true];

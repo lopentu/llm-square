@@ -9,6 +9,7 @@ import { NavLink } from 'react-router-dom';
 import dataCuration from '../data_curation.png'
 import dataComparison from '../data_comparison.png'
 import mainProject from '../main-project.png'
+import React from 'react';
 
 
 

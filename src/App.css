@@ -316,9 +316,9 @@ body {
 }
 
 .horizontal-area {
-    width: 80%;
+    width: 100%;
     max-width: 1200px;
-    grid-column-gap: 40px;
+    grid-column-gap: 100px;
     justify-content: space-between;
     align-items: flex-start;
     display: flex;
@@ -401,6 +401,12 @@ p{
     display: inline-block;
 }
 
+.w-button:hover {
+    background-color: #413F42; /* 按鈕變淡 */
+    color: #fff;
+
+  }
+
 .w--current {
     color: #323232;
     background-color: #fff;
@@ -437,6 +443,12 @@ p{
     align-items: flex-start;
     display: flex;
     margin-top: 5%;
+    font-size: 20px;
+
+}
+
+.text-container p{
+    font-size: 20px;
 }
 
 .text-container.orizontal {
@@ -528,7 +540,7 @@ p{
 }
 
 .content-row {
-    grid-column-gap: 16px;
+    grid-column-gap: 50px;
     justify-content: center;
     align-items: stretch;
     display: flex;
@@ -635,6 +647,7 @@ p{
     align-items: flex-start;
     padding: 16px 24px;
     display: grid;
+    font-size: 18px;
 }
 
 .project-title {

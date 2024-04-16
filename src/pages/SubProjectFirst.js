@@ -9,6 +9,7 @@ import { NavLink } from 'react-router-dom';
 import dataCuration from '../data_curation.png'
 import dataComparison from '../data_comparison.png'
 import verdict from '../verdict.png'
+import React from 'react';
 
 
 const SubProjectFirst =()=>{
@@ -23,10 +24,10 @@ const SubProjectFirst =()=>{
                         <div className='title-area left'>
                             <h3>
                                 <strong>
-                                 sub-projects
+                                 research teams
                                 </strong>
                             </h3>
-                            <h1>子計畫</h1>
+                            <h1>研究小組</h1>
                         </div>
 
                         <div className='project-tab-list'>
@@ -40,7 +41,7 @@ const SubProjectFirst =()=>{
                                 ].join(' ')
                             }
                             >
-                            子一「微調與評測」
+                            「微調與評測」
                         </NavLink>
 
                         <NavLink
@@ -52,7 +53,7 @@ const SubProjectFirst =()=>{
                                 ].join(' ')
                             }
                             >
-                            子二「引用與推薦」
+                            「引用與推薦」
                         </NavLink>
 
                         <NavLink
@@ -64,7 +65,7 @@ const SubProjectFirst =()=>{
                                 ].join(' ')
                             }
                             >
-                            子三「驗證與測試」
+                            「驗證與測試」
                         </NavLink>
 
                         <NavLink
@@ -76,7 +77,7 @@ const SubProjectFirst =()=>{
                                 ].join(' ')
                             }
                             >
-                            子四「微調應用」
+                            「微調應用」
                         </NavLink>
 
                         </div>
@@ -89,8 +90,8 @@ const SubProjectFirst =()=>{
                     <div className="horizontal-area mobile-switch">
                         <div className='text-container left'>
                             <div className='title-area left'>
-                                <h2>Sub-project one</h2>
-                                <h3>子計畫一（謝舒凱）：大型法律語言模型規範推理與可釋性</h3>
+                                <h3>team one</h3>
+                                <h2>大型法律語言模型規範推理與可釋性（謝舒凱）</h2>
                             </div>
                             <div>
                                 <p>🚩第一年：法律語言與推理</p>
@@ -107,9 +108,9 @@ const SubProjectFirst =()=>{
                             </div>
                             <div>
                                 <p>🚩第三年：大型法律語言模型的評測與可釋性</p>    
-                                <p>在模型訓練之後，我們將在第三年進行 LLM2 的最後評測與可釋性探究。我們將以所有子計畫
+                                <p>在模型訓練之後，我們將在第三年進行 LLM Squared 的最後評測與可釋性探究。我們將以所有子計畫
                                     執行兩年後的數據成果為基礎（包括律師高考題目、民法學說關聯、蘊涵關係數據等），進行
-                                    LLM2 的最後評測與可釋性探究。
+                                    LLM Squared 的最後評測與可釋性探究。
                                 </p>                            
                             </div>
                         </div>

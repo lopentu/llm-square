@@ -7,6 +7,7 @@ import { Button } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import dataCuration from '../data_curation.png'
 import entailment from '../Entailment.png'
+import React from 'react';
 
 
 const SubProjectFour =()=>{
@@ -21,10 +22,10 @@ const SubProjectFour =()=>{
                         <div className='title-area left'>
                             <h3>
                                 <strong>
-                                 sub-projects
+                                 Research Teams
                                 </strong>
                             </h3>
-                            <h1>子計畫</h1>
+                            <h1>研究小組</h1>
                         </div>
 
                         <div className='project-tab-list'>
@@ -38,7 +39,7 @@ const SubProjectFour =()=>{
                                 ].join(' ')
                             }
                             >
-                            子一「微調與評測」
+                            「微調與評測」
                         </NavLink>
 
                         <NavLink
@@ -50,7 +51,7 @@ const SubProjectFour =()=>{
                                 ].join(' ')
                             }
                             >
-                            子二「引用與推薦」
+                            「引用與推薦」
                         </NavLink>
 
                         <NavLink
@@ -62,7 +63,7 @@ const SubProjectFour =()=>{
                                 ].join(' ')
                             }
                             >
-                            子三「驗證與測試」
+                            「驗證與測試」
                         </NavLink>
 
                         <NavLink
@@ -74,7 +75,7 @@ const SubProjectFour =()=>{
                                 ].join(' ')
                             }
                             >
-                            子四「微調應用」
+                            「微調應用」
                         </NavLink>
 
                         </div>
@@ -87,8 +88,8 @@ const SubProjectFour =()=>{
                     <div className="horizontal-area mobile-switch">
                         <div className='text-container left'>
                             <div className='title-area left'>
-                                <h2>Sub-project four</h2>
-                                <h3>子計畫四（謝吉隆）：運用大型語言模型抽取法律判決書中的蘊含關係與知識圖譜視覺化探究</h3>
+                                <h3>Team four</h3>
+                                <h2>運用大型語言模型抽取法律判決書中的蘊含關係與知識圖譜視覺化探究（謝吉隆）</h2>
                             </div>
                             <div>
                                 <p>

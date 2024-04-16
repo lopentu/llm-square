@@ -4,6 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav'
 import './Header.css';
 import llmLogo from './llm_logo.png';
+import React from 'react';
 
 const Header = ({go=[]}) =>{
     return(

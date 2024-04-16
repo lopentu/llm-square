@@ -1,6 +1,7 @@
 import '../App.css'
 import CardItemContent from './CardItemContent'
 import { Link } from 'react-router-dom'
+import React from 'react';
 
 const CardItem = (props) =>{
     return(

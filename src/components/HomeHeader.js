@@ -5,6 +5,7 @@ import Nav from 'react-bootstrap/Nav'
 import './HomeHeader.css'
 import { useEffect, useRef, useState } from 'react';
 import llmLogo from './llm_logo.png';
+import React from 'react';
 
 
 const HomeHeader = () => {

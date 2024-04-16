@@ -1,5 +1,6 @@
 import Article from './Article';
 import '../pages/Posts.css'
+import React from 'react';
 
 
 const ArticleList = ({ articles }) => {

@@ -7,6 +7,7 @@ import { NavLink } from 'react-router-dom';
 import Footer from "../components/Footer";
 import dataCuration from "../data_curation.png"
 import workFlow from '../workflow.png'
+import React from 'react';
 
 
 

@@ -1,5 +1,6 @@
 import '../App.css';
 import { Link } from 'react-router-dom';
+import React from 'react';
 
 const Navigation=()=>{
     return(
@@ -26,8 +27,11 @@ const Navigation=()=>{
                       <Link to='/aboutus#our_team' title='計畫願景' className='menu-open-link'>
                         團隊介紹
                       </Link>
-                      <Link to='/aboutus#sponsors' title='贊助' className='menu-open-link'>
-                        贊助
+                      <Link to='/aboutus#sponsors' title='算力贊助' className='menu-open-link'>
+                        算力贊助
+                      </Link>
+                      <Link to='/aboutus#knowledge' title='知識募集' className='menu-open-link'>
+                        知識募集
                       </Link>
                       <Link to='/aboutus#contact_info' title='聯絡資訊' className='menu-open-link'>
                         聯絡資訊

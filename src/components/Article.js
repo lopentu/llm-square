@@ -1,4 +1,5 @@
 import '../pages/Posts.css'
+import React from 'react';
 
 
 const Article = ({ title, description, imageUrl, readMoreUrl }) => {

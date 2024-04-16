@@ -1,4 +1,5 @@
 import "../App.css";
+import React from 'react';
 
 const ContactInfoContent=(props)=>{
     return(

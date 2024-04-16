@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import dataCuration from '../data_curation.png'
+import React from 'react';
 
 
 

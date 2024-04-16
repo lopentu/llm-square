@@ -11,13 +11,17 @@ import "./AboutUs.css"
 import llmImage from '../llm_studying.png'
 import nvidia from '../nvidia.png'
 import ntu from '../ntu.png'
+import React from 'react';
+import { Link, NavLink } from 'react-router-dom';
 
 const AboutUs = () =>{
         const go =[
             {to:'#vision', to_where:'計畫願景'},
-            {to:'#sponsors', to_where:'贊助'},
+            {to:'#sponsors', to_where:'算力贊助'},
             {to:'#our_team', to_where:'團隊介紹'},
+            {to:'#knowledge', to_where:'知識募集'},
             {to:'#contact_info', to_where:'聯絡資訊'}
+            
         ];    
 
     return( 
@@ -30,22 +34,22 @@ const AboutUs = () =>{
                     <div className="horizontal-area mobile-switch">
                         <div className='text-container left'>
                             <div className='title-area left'>
-                                <h2>VISION</h2>
-                                <h3>計畫願景</h3>
+                                <h3>VISION</h3>
+                                <h2>計畫願景</h2>
                             </div>
                             <p>我們將以台灣本土的法律資料為基礎，並在以下幾個面向進行創新與領先：
                             <br/>
                             <br/>
-                            • 高品質數據搜集、爬取與清理。台灣首次取得法律出版社的合作意願，提供高品質的人類撰寫（而非機器自己再生成）之期刊文章與解題內容。
+                            • <strong>高品質數據搜集、爬取與清理：</strong>首次取得法律出版社的合作意願，提供高品質的人類撰寫（而非機器自己再生成）之期刊文章與解題內容。
                             <br/>
                             <br/>
-                            • 模型訓練：獲得輝達台大中心的算力支持，使得本計畫的模型訓練能夠更加快速、高效與規模化。
+                            • <strong>高效能模型訓練：</strong>獲得輝達台大中心的算力支持，使得本計畫的模型訓練能夠更加快速、高效與規模化。
                             <br/>
                             <br/>
-                            • 模型評測以重視法律推理的申論題為主，更重視模型的可解釋性與推理能力。
+                            • <strong>模型推理能力評測：</strong>以重視法律推理的申論題為主，更重視模型的可解釋性與推理能力。
                             <br/>
                             <br/>
-                            • 應用與介面結合知識圖譜，增強模型可解釋性，並提供更加直觀的法律諮詢與教育服務</p>
+                            • <strong>模型可釋性：</strong>應用與介面結合知識圖譜，增強模型可解釋性，並提供更加直觀的法律諮詢與教育服務</p>
                         </div>
                         <img src={llmImage} loading="lazy" sizes="(max-width: 767px) 90vw, (max-width: 991px) 45vw, 40vw" alt=" " className="featured-image"/>
                     </div>
@@ -55,8 +59,8 @@ const AboutUs = () =>{
                     <div className="vertical-area">
                         <div className="text-container center">
                             <div className="title-area">
-                                <h1>OUR TEAM</h1>
-                                <h3>團隊介紹</h3>
+                                <h3>OUR TEAM</h3>
+                                <h2>團隊介紹</h2>
                             </div>
                         </div>
                         <div className="project01-description-container">
@@ -80,7 +84,9 @@ const AboutUs = () =>{
                                     leaderName='國立台灣大學語言學研究所 謝舒凱教授' 
                                     coleader={<span>計畫參與<br/>學生</span>} 
                                     coleaderName = {
-                                                        <span>國立台灣大學語言學研究所 連大成<br/>國立台灣大學語言學研究所 陳品而<br/>國立台灣大學語言學研究所 王柏雅<br/>國立台灣大學語言學研究所 古貿昌<br/>國立台灣大學語言學研究所 顏巧函<br/>國立台灣大學語言學研究所 紀柔安</span>
+
+                                        <span>國立台灣大學語言學研究所 <br/>連大成、陳品而、王伯雅、古貿昌<br/>顏巧函、紀柔安</span>
+
                                                     }
                                 />
 
@@ -160,8 +166,8 @@ const AboutUs = () =>{
                     <div className="horizontal-area mobile-switch">
                             <div className='text-container left'>
                                 <div className='title-area left'>
-                                    <h2>Sponsors</h2>
-                                    <h3>贊助</h3>
+                                    <h3>Sponsors</h3>
+                                    <h2>算力贊助</h2>
                                 </div>
                             <div className="sponsors">
                                 <h2>Nvidia台大人工智慧聯合研究中心</h2>
@@ -175,10 +181,31 @@ const AboutUs = () =>{
 
                     </div>                                                    
                 </section>
+                <section id='knowledge' className="section-2 beigebg">
+                    <div className="horizontal-area mobile-switch">
+                                <div className='text-container left'>
+                                    <div className='title-area left'>
+                                        <h3>Share your Knowledge</h3>
+                                        <h2>知識募集</h2>
+                                    </div>
+                                    <div className="square">
+                                        <div className="inviting">
+                                            <div className="google-button-container">                                            
+                                                <Nav.Link className='google-button google-w-button' href='https://forms.gle/7RzvtAZqpbrEYyZu5'>填寫表單</Nav.Link>
+                                            </div>
+                                        <p>您的<strong>專業知識</strong>將為 LLM Squared 提供重要支持。
+                                            <br/>各界合作，讓您的資料豐富<strong>台灣法律大型語言模型</strong>！</p>                                          
+                                        </div>
+                                        <div className="sponsors">
+                                    </div>  
+                                    </div>
+                                </div>
+                    </div>
+                </section>
 
                 <section id='contact_info' className="section-2 greybg">
-                <div className='horizontal-area'>
-                        <div className='text-container lef'>
+                <div className='horizontal-area '>
+                        <div className='text-container left'>
                             <div className='title-area left whitecolor'>
                                 <h2>
                                     CONTACT

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import '../App.css'
+import React from 'react';
 
 const Footer = () =>{
     return(
@@ -22,13 +23,13 @@ const Footer = () =>{
                     <svg width="28" height="29" viewBox="0 0 28 29"></svg>
                 </a>
             </div>
-                <div className='text_s'>
+                {/*<div className='text_s'>
                     電話：
                     <br/>
                     email：
                     <br/>
                     地址：
-                </div>
+    </div>*/}
             </div>
 
             <div className='footer-content'>

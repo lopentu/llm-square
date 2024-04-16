@@ -1,5 +1,6 @@
 import '../App.css';
 import CardItemContent from './CardItemContent';
+import React from 'react';
 
 const Description=()=>{
     return(
@@ -7,8 +8,8 @@ const Description=()=>{
             <div className='vertical-area'>
                 <div className='text-container center'>
                     <div className='title-area'>
-                        <h1>Description</h1> 
-                        <h3>執行計畫總述</h3>
+                        <h3>Description</h3> 
+                        <h2>執行計畫總述</h2>
                     </div>
                     <p className='text-center'> 
                     創建第一個立基於台灣本土的大型法律語言模型，它能理解並生成與台灣法律文本相關的語言，優化法律文件的生成和理解，這個基礎模型，不僅可以提供法律輔助服務、提升法治教育，對於立法、司法從業人員、律師與相關專業從業人員與民眾，皆有極大的協助。

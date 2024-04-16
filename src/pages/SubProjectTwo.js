@@ -8,6 +8,7 @@ import { NavLink } from 'react-router-dom';
 import dataCuration from '../data_curation.png'
 import dataComparison from '../data_comparison.png'
 import verdict from '../verdict.png'
+import React from 'react';
 
 
 const SubProjectTwo =()=>{
@@ -22,10 +23,10 @@ const SubProjectTwo =()=>{
                         <div className='title-area left'>
                             <h3>
                                 <strong>
-                                 sub-projects
+                                 research teams
                                 </strong>
                             </h3>
-                            <h1>子計畫</h1>
+                            <h1>研究小組</h1>
                         </div>
 
                         <div className='project-tab-list'>
@@ -39,7 +40,7 @@ const SubProjectTwo =()=>{
                                 ].join(' ')
                             }
                             >
-                            子一「微調與評測」
+                            「微調與評測」
                         </NavLink>
 
                         <NavLink
@@ -51,7 +52,7 @@ const SubProjectTwo =()=>{
                                 ].join(' ')
                             }
                             >
-                            子二「引用與推薦」
+                            「引用與推薦」
                         </NavLink>
 
                         <NavLink
@@ -63,7 +64,7 @@ const SubProjectTwo =()=>{
                                 ].join(' ')
                             }
                             >
-                            子三「驗證與測試」
+                            「驗證與測試」
                         </NavLink>
 
                         <NavLink
@@ -75,7 +76,7 @@ const SubProjectTwo =()=>{
                                 ].join(' ')
                             }
                             >
-                            子四「微調應用」
+                            「微調應用」
                         </NavLink>
 
                         </div>
@@ -88,8 +89,8 @@ const SubProjectTwo =()=>{
                     <div className="horizontal-area mobile-switch">
                         <div className='text-container left'>
                             <div className='title-area left'>
-                                <h2>Sub-project two</h2>
-                                <h3>子計畫二（黃詩淳）：應用大語言模型建立法學理論之知識圖譜與引用推薦</h3>
+                                <h3>team two</h3>
+                                <h2>應用大語言模型建立法學理論之知識圖譜與引用推薦（黃詩淳）</h2>
                             </div>
                             <div>
                                 <p>🚩第一年：專家定義之學說關聯性之標記</p>
