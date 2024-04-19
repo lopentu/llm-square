@@ -7,7 +7,7 @@ import Header from './components/Header';
 import ModelTraining from './pages/ModelTraining';
 import Evaluation from './pages/Evaluation';
 import Application from './pages/Application';
-import Posts from './pages/Posts';
+import Posts from './pages/Posts/Posts';
 import SubProjectFirst from './pages/SubProjectFirst';
 import SubProjectTwo from './pages/SubProjectTwo';
 import SubProjectThree from './pages/SubProjectThree';
@@ -15,6 +15,8 @@ import SubProjectFour from './pages/SubProjectFour';
 import MainProject from './pages/MainProject';
 import React  from 'react';
 import ScrollToTop from './ScrollToTop';
+import News from './pages/News';
+import Hackathon from './pages/Posts/Hackathon';
 
 
 const App = () => {
@@ -38,6 +40,8 @@ const App = () => {
                     <Route path='/sub-project/second' element={<SubProjectTwo/>} />
                     <Route path='/sub-project/third' element={<SubProjectThree/>} />
                     <Route path='/sub-project/forth' element={<SubProjectFour/>} />
+                    <Route path='/news' element={<News/>}/>
+                    <Route path='/news/hackathon' element={<Hackathon/>}/>
                 </Routes>
                 <ScrollToTop />
 

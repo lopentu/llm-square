@@ -9,16 +9,16 @@ const BlogCard = (props) =>{
     return(
 
         <div className="blogcard">
-            <NavLink to={"/posts/"}>
+            <NavLink to={props.postPath}>
                 <div className='imgContainer'>
-                    <img src={props.coverPhoto} />
+                    {props.coverPhoto && <img src={props.coverPhoto} />}
                 </div>
             </NavLink>
             <div className='text'>
                 <h2>{props.title}</h2>
                 <div className='details'>
                     <div className='author'>
-                        <img src={props.avatar}/>
+                        {props.avatar && <img src={props.avatar}/>}
                         <h3>{props.author}</h3>
                     </div>
                     <div className='date'>

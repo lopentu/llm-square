@@ -84,14 +84,18 @@ const Navigation=()=>{
                   </div>
 
                     <div className='menu-open-links'>
-                      <a title='news' className='navigation__link'>
+                      <Link to='/news#news-list' title='最新消息' className='navigation__link'>
                         <h2>NEWS</h2>
-                        <h3>最新消息</h3>
-                      </a>
-                      <div className='menu-item-links'>
-                        <a title='最新消息' className='menu-open-link'>最新消息</a>
-                        <a title='招募' className='menu-open-link'>招募</a>
-                        <a title='黑客松' className='menu-open-link'>黑客松</a>
+                        <h3>最新消息</h3>                      
+                      </Link>
+
+                      <div className='menu-item-links navigation__link'>
+                      <Link to='/news#news-list' title='最新消息' className='menu-open-link'>
+                        最新消息
+                      </Link>
+                      <Link to='/news#recruit' title='招募' className='menu-open-link'>
+                      招募
+                      </Link>
                       </div>
                     </div>
 

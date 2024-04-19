@@ -1,4 +1,4 @@
-import '../pages/Posts.css'
+import '../pages/Posts/Posts.css'
 import React from 'react';
 
 

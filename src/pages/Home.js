@@ -50,7 +50,7 @@ const Home = () => {
                         </div>
                         <div className='home-project-item-list w-dyn-list'>
                             <div role='list' className="project-items "> {/*w-dyn-items*/}
-                                <BlogCard title='法律領域的大型語言模型' author='謝舒凱' coverPhoto={typingCat} avatar={shukai} datePublish='2024-04-08'/>
+                                <BlogCard title='法律領域的大型語言模型' author='謝舒凱' coverPhoto={typingCat} avatar={shukai} datePublish='2024-04-08' postPath='/posts/'/>
                                 {/*<BlogCard title='法律領域的大型語言模型' author='謝舒凱' coverPhoto='typingCat' datePublish='2024-04-08'/>*/}
                                 {/*<Plan imgSrc='' text='post_1' />*/}
                                 {/*<Plan imgSrc='' text='post_2' />*/}
