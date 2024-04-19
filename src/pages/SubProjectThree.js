@@ -98,7 +98,7 @@ const SubProjectThree =()=>{
                                     的發展。
                                 </p>
                                 <br/>
-                                <p>🚩第一年上半：原始資料獲取、資料結構建立、建立baseline與評估指標。</p>
+                                <p><strong>🚩原始資料獲取、資料結構建立、建立baseline與評估指標。</strong></p>
                                 <p>與元照出版社簽訂協議，取得法學考試資料，含選擇題、申論題。數據
                                     集準備：與「元照出版社」洽詢，收集和整理法律試題及其標準答案，包括歷年的國家考
                                     試/法學院考試題目、模擬試題和專業法律回答。並且轉為Nvidia訓練所需要的資料格式
@@ -107,7 +107,7 @@ const SubProjectThree =()=>{
                                 </p>                                
                             </div>
                             <div>
-                                <p>🚩第一年下半：資料微調與RAG（第一年下半）</p>
+                                <p><strong>🚩資料微調與RAG（第一年下半）</strong></p>
                                 <p>
                                     配合總計畫，團隊會根據法律領域的特定需求進行微調（Fine-tuning, model II）或檢
                                     索增強生成（Retrieval-Augmented Generation, RAG, model III）。
@@ -125,7 +125,7 @@ const SubProjectThree =()=>{
                                 </p>
                             </div>
                             <div>
-                                <p>🚩第二年：選擇題/申論題答題與prompting</p> 
+                                <p><strong>🚩選擇題/申論題答題與prompting</strong></p> 
                                 <p>
                                     本計畫會開始使用model I, II, III來大規模試驗測試組（未曾在資料庫出現或用以訓練
                                     的題庫），並考驗其正確性與評估分數。
@@ -140,7 +140,7 @@ const SubProjectThree =()=>{
                                 </p>                            
                             </div>
                             <div>
-                                <p>🚩第三年：申論題自動化評估與題庫/擬答生成</p> 
+                                <p><strong>🚩申論題自動化評估與題庫/擬答生成</strong></p> 
                                 <p>
                                 申論題自動化評估系統旨在自動評分學生的開放式回答。利用LLMs（或NLP）技術理
                                 解學生回答的內容，包括語法分析、語義理解等。評分標準匹配：根據預設的評分標準或

@@ -60,7 +60,7 @@ const News = () =>{
                                                 {/*<Nav.Link className='google-button google-w-button' href='https://forms.gle/7RzvtAZqpbrEYyZu5'>填寫表單</Nav.Link>*/}
                                             </div>
                                         <p>感謝您的關注！
-                                            <br/>目前我們暫未進行<strong>招募</strong>，<br/>未來如有招募需求，將會在此公佈😊</p>                                          
+                                            <br/>目前我們<strong>暫未進行招募</strong>，<br/>未來如有招募需求，將會在此公佈😊</p>                                          
                                         </div>
                                         <div className="sponsors">
                                     </div>  
