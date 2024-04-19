@@ -90,12 +90,15 @@ const Footer = () =>{
                 </div>
 
                 <div className='footer-block'>
-                    <a title='最新消息'  className='footer-link-title w-inline-block'>
+                    <Link to='/news#news-list' title='最新消息' className='footer-link-title w-inline-block'>
                         <div className='title-small'>最新消息</div>
-                    </a>
-                    <a title='最新消息' className='footer-link'>最新消息</a>
-                    <a title='黑客松' className='footer-link'>黑客松</a>
-                    <a title='招募' className='footer-link'>招募</a>
+                    </Link>
+                    <Link to='/news#news-list' title='最新消息' className='footer-link'>
+                        最新消息
+                    </Link>
+                    <Link to='/news#recruit' title='招募' className='footer-link'>
+                        招募
+                    </Link>
                 </div>
 
             </div>
