@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/llm-square/static/css/main.d5638744.chunk.css",
-    "main.js": "/llm-square/static/js/main.63d9d1cd.chunk.js",
-    "main.js.map": "/llm-square/static/js/main.63d9d1cd.chunk.js.map",
+    "main.css": "/llm-square/static/css/main.915022d5.chunk.css",
+    "main.js": "/llm-square/static/js/main.1fff944c.chunk.js",
+    "main.js.map": "/llm-square/static/js/main.1fff944c.chunk.js.map",
     "runtime-main.js": "/llm-square/static/js/runtime-main.d788c632.js",
     "runtime-main.js.map": "/llm-square/static/js/runtime-main.d788c632.js.map",
-    "static/js/2.0b562fc6.chunk.js": "/llm-square/static/js/2.0b562fc6.chunk.js",
-    "static/js/2.0b562fc6.chunk.js.map": "/llm-square/static/js/2.0b562fc6.chunk.js.map",
+    "static/js/2.c8a59db7.chunk.js": "/llm-square/static/js/2.c8a59db7.chunk.js",
+    "static/js/2.c8a59db7.chunk.js.map": "/llm-square/static/js/2.c8a59db7.chunk.js.map",
     "index.html": "/llm-square/index.html",
-    "precache-manifest.e41111cf2af48a77692ce6a88f2cf010.js": "/llm-square/precache-manifest.e41111cf2af48a77692ce6a88f2cf010.js",
+    "precache-manifest.948a74e3e3bae9a32ed16dd57cd05781.js": "/llm-square/precache-manifest.948a74e3e3bae9a32ed16dd57cd05781.js",
     "service-worker.js": "/llm-square/service-worker.js",
-    "static/css/main.d5638744.chunk.css.map": "/llm-square/static/css/main.d5638744.chunk.css.map",
-    "static/js/2.0b562fc6.chunk.js.LICENSE.txt": "/llm-square/static/js/2.0b562fc6.chunk.js.LICENSE.txt",
+    "static/css/main.915022d5.chunk.css.map": "/llm-square/static/css/main.915022d5.chunk.css.map",
+    "static/js/2.c8a59db7.chunk.js.LICENSE.txt": "/llm-square/static/js/2.c8a59db7.chunk.js.LICENSE.txt",
     "static/media/Entailment.png": "/llm-square/static/media/Entailment.0aefec32.png",
     "static/media/data_comparison.png": "/llm-square/static/media/data_comparison.3b27edbf.png",
     "static/media/data_curation.png": "/llm-square/static/media/data_curation.68314b5c.png",
@@ -23,12 +23,13 @@
     "static/media/shukai.png": "/llm-square/static/media/shukai.cab6a3e7.png",
     "static/media/typing_cat.png": "/llm-square/static/media/typing_cat.c911b836.png",
     "static/media/verdict.png": "/llm-square/static/media/verdict.7ab53d3c.png",
+    "static/media/white.png": "/llm-square/static/media/white.589fc858.png",
     "static/media/workflow.png": "/llm-square/static/media/workflow.d415b5d9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d788c632.js",
-    "static/js/2.0b562fc6.chunk.js",
-    "static/css/main.d5638744.chunk.css",
-    "static/js/main.63d9d1cd.chunk.js"
+    "static/js/2.c8a59db7.chunk.js",
+    "static/css/main.915022d5.chunk.css",
+    "static/js/main.1fff944c.chunk.js"
   ]
 }

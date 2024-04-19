@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c433cf182d0328d27f9837897a18b5d8",
+    "revision": "ea114199ee29532f8fa9db05e000a46c",
     "url": "/llm-square/index.html"
   },
   {
-    "revision": "1efadbd8f0b5c5cebd6c",
-    "url": "/llm-square/static/css/main.d5638744.chunk.css"
+    "revision": "5f3a4251f56b57e4f309",
+    "url": "/llm-square/static/css/main.915022d5.chunk.css"
   },
   {
-    "revision": "21a6cbf2f35bb31a73a6",
-    "url": "/llm-square/static/js/2.0b562fc6.chunk.js"
+    "revision": "6c05b0ab0834fa69dd31",
+    "url": "/llm-square/static/js/2.c8a59db7.chunk.js"
   },
   {
     "revision": "3478b494b1c1800ea949f65ca5135346",
-    "url": "/llm-square/static/js/2.0b562fc6.chunk.js.LICENSE.txt"
+    "url": "/llm-square/static/js/2.c8a59db7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1efadbd8f0b5c5cebd6c",
-    "url": "/llm-square/static/js/main.63d9d1cd.chunk.js"
+    "revision": "5f3a4251f56b57e4f309",
+    "url": "/llm-square/static/js/main.1fff944c.chunk.js"
   },
   {
     "revision": "8b1f7bef2acd57e574c6",
@@ -66,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7ab53d3c620d1fc628e3c61d62ccab29",
     "url": "/llm-square/static/media/verdict.7ab53d3c.png"
+  },
+  {
+    "revision": "589fc858181471ea7e61d57799c8fa6c",
+    "url": "/llm-square/static/media/white.589fc858.png"
   },
   {
     "revision": "d415b5d936ba1e6fcfec5a3f325d5e2e",
